@@ -318,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960b12bc0e0010f488b2c9e4c05be8a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  age: 17
 --- !u!114 &850632599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,6 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c63b541aa28cc44c940126450560d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  year: 0
 --- !u!114 &850632602
 MonoBehaviour:
   m_ObjectHideFlags: 0

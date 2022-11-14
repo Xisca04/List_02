@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Exercise_5 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Legal age or not
 
-    // Update is called once per frame
-    void Update()
+    public int age;
+
+    private void Start()
     {
-        
+        if(age > 17)
+        {
+            Debug.Log($"Hello, you are {age} years old, so you are of legal age.");
+        }
+        else
+        {
+            Debug.Log($"Hello, you are {age} years old, so you are not of legal age.");
+        }
     }
 }
