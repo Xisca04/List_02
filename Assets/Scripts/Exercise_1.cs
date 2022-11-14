@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Exercise_1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Positive-Negative-Zero
 
-    // Update is called once per frame
-    void Update()
+    public float number;
+
+    private void Start()
     {
-        
+        if(number == 0)
+        {
+            Debug.Log($"This number, {number}, is zero.");
+        }
+        else if(number < 0)
+        {
+            Debug.Log($"This number, {number}, is negative.");
+        }
+        else
+        {
+            Debug.Log($"This number, {number}, is positive.");
+        }
     }
 }
