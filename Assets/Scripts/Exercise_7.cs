@@ -4,11 +4,32 @@ using UnityEngine;
 
 public class Exercise_7 : MonoBehaviour
 {
-<<<<<<< HEAD
-    // Sum, subtraction, division and product
+   //Sum, subtraction, product and division
 
-   
-=======
-    
->>>>>>> 9f48bbef25614f1940dc6061d3a717e73fd2c126
+    public string operation;
+    public float x;
+    public float y;
+
+    private void Start()
+    {
+       if (operation == "sum")
+       {
+            Debug.Log($"Sum: {x} + {y} = {x + y}");
+       }
+       
+       if (operation == "subtraction")
+        {
+            Debug.Log($"Subtraction: {x} - {y} = {x - y}");
+        }
+
+       if (operation == "product")
+        {
+            Debug.Log($"Product: {x} * {y} = {x * y}");
+        }
+
+       if (operation == "division")
+        {
+            Debug.Log($"Division: {x} / {y} = {x / y}");
+        }
+    }
 }

@@ -12,29 +12,28 @@ public class Exercise_8 : MonoBehaviour
     {
         if (points > 100)
         {
-            Debug.Log($"You have more than 100 points.");
+            Debug.Log($"You have more than 100 points!");
         }
-
-        if (points <= 100 , > 75)
+        else
         {
-            Debug.Log($"You have more than 75 points, but less than or equal to 100.");
+            if(points >= 75)
+            {
+                Debug.Log($"You have more than 75 points, but less than or equal to 100 points.");
+            }
+            else
+            {
+                Debug.Log($"You have more than 50 points, but less than or equal to 75 points.");
+            }
         }
 
-        if (points <= 75 , > 50)
+        if (points >= 50)
         {
-            Debug.Log($"You have more than 50 points, but less than or equal to 75.");
+            Debug.Log($"You have more than 25 points, but less than or equal to 50 points.");
         }
-
-        if (points <= 50 , > 25)
+        else
         {
-            Debug.Log($"You have more points than 25, but less than or equal to 50.");
-
-        }else{
-
-            Debug.Log($"You have less than or equal to 25 points.");
+            Debug.Log($"You have lees than or equal to 25 points.");
         }
-        
 
-       
     }
 }

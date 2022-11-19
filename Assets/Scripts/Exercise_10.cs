@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Exercise_10 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // The year is a leap year
 
-    // Update is called once per frame
-    void Update()
+    public int Year;
+
+    private void Start()
     {
-        
+      
     }
 }
