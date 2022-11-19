@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Exercise_3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Number is divisble by 5
+   
+    public int number;
+    private int number2 = 5;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        number /= number2;
+        Debug.Log($"This number, {number}, is divisible by 5.");
+
     }
 }

@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Exercise_4 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // The area of a triangle
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

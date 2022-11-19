@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Exercise_7 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Sum, subtraction, division and product
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
